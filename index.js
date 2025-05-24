@@ -4,7 +4,7 @@ const { initializeApp } = require("firebase/app");
 const { getFirestore, collection, getDocs, deleteDoc, doc } = require("firebase/firestore");
 const bodyParser = require("body-parser");
 const app = express();
-const port = 3000;
+const port = 443;
 const jwt = require('jsonwebtoken');
 
 const SECRET_KEY = process.env.SECRET_KEY;
